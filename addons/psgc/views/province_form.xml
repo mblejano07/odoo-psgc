@@ -1,0 +1,36 @@
+<!-- province_form.xml -->
+<odoo>
+    <record id="view_province_form" model="ir.ui.view">
+        <field name="name">psgc.province.form</field>
+        <field name="model">psgc.province</field>
+        <field name="arch" type="xml">
+            <form string="Province">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="province_code"/>
+                        <field name="geo_level"/>
+                        <field name="old_name"/>
+                        <field name="income_classification"/>
+                        <field name="region_id"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_province_tree" model="ir.ui.view">
+        <field name="name">psgc.province.tree</field>
+        <field name="model">psgc.province</field>
+        <field name="arch" type="xml">
+            <list string="Provinces">
+                <field name="code_correspondence"/>
+                <field name="name"/>
+                <field name="province_code"/>
+                <field name="geo_level"/>
+                <field name="income_classification"/>
+                <field name="region_id"/>
+            </list>
+        </field>
+    </record>
+</odoo>

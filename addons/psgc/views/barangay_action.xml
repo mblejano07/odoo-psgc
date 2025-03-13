@@ -1,0 +1,10 @@
+<odoo>
+    <!-- Barangay Action -->
+    <record id="action_barangay" model="ir.actions.act_window">
+        <field name="name">Barangays</field>
+        <field name="res_model">psgc.barangay</field>
+        <field name="view_mode">list,form</field>
+        <field name="view_id" ref="psgc.view_barangay_tree"/>
+        <field name="context">{}</field>
+    </record>
+</odoo>

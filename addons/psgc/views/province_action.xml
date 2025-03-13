@@ -1,0 +1,10 @@
+<odoo>
+    <record id="action_province" model="ir.actions.act_window">
+        <field name="name">Provinces</field>
+        <field name="res_model">psgc.province</field>
+        <field name="view_mode">list,form</field>
+        <field name="view_id" ref="view_province_tree"/>
+        <field name="context">{}</field>
+    </record>
+</odoo>
+

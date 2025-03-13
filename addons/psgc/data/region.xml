@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="psgc_region_2" model="psgc.region">
+            <field name="code_correspondence">0100000000</field>
+            <field name="name">Region I (Ilocos Region)</field>
+            <field name="altName">I</field>
+            <field name="region_code">010000000</field>
+            <field name="geo_level">Reg</field>
+        </record>
+        <record id="psgc_region_5" model="psgc.region">
+            <field name="code_correspondence">0200000000</field>
+            <field name="name">Region II (Cagayan Valley)</field>
+            <field name="altName">II</field>
+            <field name="region_code">020000000</field>
+            <field name="geo_level">Reg</field>
+        </record>
+        <record id="psgc_region_8" model="psgc.region">
+            <field name="code_correspondence">0300000000</field>
+            <field name="name">Region III (Central Luzon)</field>
+            <field name="altName">III</field>
+            <field name="region_code">030000000</field>
+            <field name="geo_level">Reg</field>
+        </record>
+        <record id="psgc_region_11" model="psgc.region">
+            <field name="code_correspondence">0400000000</field>
+            <field name="name">Region IV-A (CALABARZON)</field>
+            <field name="altName">IV-A</field>
+            <field name="region_code">040000000</field>
+            <field name="geo_level">Reg</field>
+        </record>
+        <record id="psgc_region_14" model="psgc.region">
+            <field name="code_correspondence">1700000000</field>
+            <field name="name">MIMAROPA Region</field>
+            <field name="altName">IV-B</field>
+            <field name="region_code">170000000</field>
+            <field name="geo_level">Reg</field>
+        </record>
+        <record id="psgc_region_17" model="psgc.region">
+            <field name="code_correspondence">0500000000</field>
+            <field name="name">Region V (Bicol Region)</field>
+            <field name="altName">V</field>
+            <field name="region_code">050000000</field>
+            <field name="geo_level">Reg</field>
+        </record>
+        <record id="psgc_region_20" model="psgc.region">
+            <field name="code_correspondence">0600000000</field>
+            <field name="name">Region VI (Western Visayas)</field>
+            <field name="altName">VI</field>
+            <field name="region_code">060000000</field>
+            <field name="geo_level">Reg</field>
+        </record>
+        <record id="psgc_region_23" model="psgc.region">
+            <field name="code_correspondence">0700000000</field>
+            <field name="name">Region VII (Central Visayas)</field>
+            <field name="altName">VII</field>
+            <field name="region_code">070000000</field>
+            <field name="geo_level">Reg</field>
+        </record>
+        <record id="psgc_region_26" model="psgc.region">
+            <field name="code_correspondence">0800000000</field>
+            <field name="name">Region VIII (Eastern Visayas)</field>
+            <field name="altName">VIII</field>
+            <field name="region_code">080000000</field>
+            <field name="geo_level">Reg</field>
+        </record>
+        <record id="psgc_region_29" model="psgc.region">
+            <field name="code_correspondence">0900000000</field>
+            <field name="name">Region IX (Zamboanga Peninsula)</field>
+            <field name="altName">IX</field>
+            <field name="region_code">090000000</field>
+            <field name="geo_level">Reg</field>
+        </record>
+        <record id="psgc_region_32" model="psgc.region">
+            <field name="code_correspondence">1000000000</field>
+            <field name="name">Region X (Northern Mindanao)</field>
+            <field name="altName">X</field>
+            <field name="region_code">100000000</field>
+            <field name="geo_level">Reg</field>
+        </record>
+        <record id="psgc_region_35" model="psgc.region">
+            <field name="code_correspondence">1100000000</field>
+            <field name="name">Region XI (Davao Region)</field>
+            <field name="altName">XI</field>
+            <field name="region_code">110000000</field>
+            <field name="geo_level">Reg</field>
+        </record>
+        <record id="psgc_region_38" model="psgc.region">
+            <field name="code_correspondence">1200000000</field>
+            <field name="name">Region XII (SOCCSKSARGEN)</field>
+            <field name="altName">XII</field>
+            <field name="region_code">120000000</field>
+            <field name="geo_level">Reg</field>
+        </record>
+        <record id="psgc_region_41" model="psgc.region">
+            <field name="code_correspondence">1300000000</field>
+            <field name="name">National Capital Region (NCR)</field>
+            <field name="altName">NCR</field>
+            <field name="region_code">130000000</field>
+            <field name="geo_level">Reg</field>
+        </record>
+        <record id="psgc_region_44" model="psgc.region">
+            <field name="code_correspondence">1400000000</field>
+            <field name="name">Cordillera Administrative Region (CAR)</field>
+            <field name="altName">CAR</field>
+            <field name="region_code">140000000</field>
+            <field name="geo_level">Reg</field>
+        </record>
+        <record id="psgc_region_47" model="psgc.region">
+            <field name="code_correspondence">1600000000</field>
+            <field name="name">Region XIII (Caraga)</field>
+            <field name="altName">CARAGA</field>
+            <field name="region_code">160000000</field>
+            <field name="geo_level">Reg</field>
+        </record>
+        <record id="psgc_region_50" model="psgc.region">
+            <field name="code_correspondence">1900000000</field>
+            <field name="name">Bangsamoro Autonomous Region In Muslim Mindanao (BARMM)</field>
+            <field name="altName">BARMM</field>
+            <field name="region_code">150000000</field>
+            <field name="geo_level">Reg</field>
+        </record>
+    </data>
+</odoo>

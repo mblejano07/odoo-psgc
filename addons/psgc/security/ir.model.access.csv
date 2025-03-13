@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_psgc_region,access.psgc.region,model_psgc_region,,1,1,1,1
+access_psgc_province,access.psgc.province,model_psgc_province,,1,1,1,1
+access_psgc_city,access.psgc.city,model_psgc_city,,1,1,1,1
+access_psgc_barangay,access.psgc.barangay,model_psgc_barangay,,1,1,1,1

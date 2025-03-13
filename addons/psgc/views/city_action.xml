@@ -1,0 +1,9 @@
+<odoo>
+    <record id="action_city" model="ir.actions.act_window">
+        <field name="name">Cities/Municipalities</field>
+        <field name="res_model">psgc.city</field>
+        <field name="view_mode">list,form</field>
+        <field name="view_id" ref="psgc.view_city_tree"/>
+        <field name="context">{}</field>
+    </record>
+</odoo>

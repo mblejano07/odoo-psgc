@@ -1,0 +1,39 @@
+<odoo>
+    <!-- Barangay Form View -->
+    <record id="view_barangay_form" model="ir.ui.view">
+        <field name="name">psgc.barangay.form</field>
+        <field name="model">psgc.barangay</field>
+        <field name="arch" type="xml">
+            <form string="Barangay">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="brgy_code"/>
+                        <field name="code_correspondence"/>
+                        <field name="geo_level"/>
+                        <field name="old_name"/>
+                        <field name="city_class"/>
+                        <field name="urb_rur"/>
+                        <field name="city_id"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Barangay List View -->
+    <record id="view_barangay_tree" model="ir.ui.view">
+        <field name="name">psgc.barangay.tree</field>
+        <field name="model">psgc.barangay</field>
+        <field name="arch" type="xml">
+            <list string="Barangays">
+                <field name="name"/>
+                <field name="brgy_code"/>
+                <field name="code_correspondence"/>
+                <field name="geo_level"/>
+                <field name="urb_rur"/>
+                <field name="city_id"/>
+            </list>
+        </field>
+    </record>
+</odoo>

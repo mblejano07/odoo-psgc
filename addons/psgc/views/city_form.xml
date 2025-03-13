@@ -1,0 +1,37 @@
+<odoo>
+    <record id="view_city_form" model="ir.ui.view">
+        <field name="name">psgc.city.form</field>
+        <field name="model">psgc.city</field>
+        <field name="arch" type="xml">
+            <form string="City/Municipality">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="city_code"/>
+                        <field name="code_correspondence"/>
+                        <field name="classification"/>
+                        <field name="old_name"/>
+                        <field name="city_class"/>
+                        <field name="income_classification"/>
+                        <field name="province_id"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_city_tree" model="ir.ui.view">
+        <field name="name">psgc.city.tree</field>
+        <field name="model">psgc.city</field>
+        <field name="arch" type="xml">
+            <list string="Cities/Municipalities">
+                <field name="name"/>
+                <field name="city_code"/>
+                <field name="code_correspondence"/>
+                <field name="classification"/>
+                <field name="income_classification"/>
+                <field name="province_id"/>
+            </list>
+        </field>
+    </record>
+</odoo>
